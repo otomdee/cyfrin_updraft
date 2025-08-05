@@ -10,3 +10,9 @@
 [submodule "fundMe/lib/foundry-devops"]
 	path = fundMe/lib/foundry-devops
 	url = https://github.com/Cyfrin/foundry-devops
+[submodule "Foundry_CU_challenges/lib/forge-std"]
+	path = Foundry_CU_challenges/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Foundry_CU_challenges/lib/openzeppelin-contracts"]
+	path = Foundry_CU_challenges/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
