@@ -13,7 +13,7 @@ contract AdvancedThreeTest is Test {
     LessonTwelveHelper hellContract;
 
     function setUp() public {
-        myContract = new AdvancedThree(user);
+        myContract = new AdvancedThree();
         vm.prank(user);
         hellContract = new LessonTwelveHelper();
     }
