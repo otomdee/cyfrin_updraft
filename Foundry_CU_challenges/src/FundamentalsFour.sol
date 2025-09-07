@@ -32,6 +32,7 @@ contract FundamentalsFour is IERC721Receiver {
     function myAttribute(address challengeAddress) external returns (string memory) {
         bytes memory callData = abi.encodeWithSignature("attribute()");
         (bool success, bytes memory returnData) = challengeAddress.call(callData);
+        success;
         return (abi.decode(returnData, (string)));
     }
 
@@ -41,6 +42,10 @@ contract FundamentalsFour is IERC721Receiver {
         override
         returns (bytes4)
     {
+        operator;
+        from;
+        tokenId;
+        data;
         return (IERC721Receiver.onERC721Received.selector);
     }
 
