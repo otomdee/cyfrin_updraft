@@ -37,6 +37,11 @@ contract SRTwo is IERC721Receiver {
         override
         returns (bytes4)
     {
+        operator;
+        from;
+        tokenId;
+        data;
+
         return (IERC721Receiver.onERC721Received.selector);
     }
 
