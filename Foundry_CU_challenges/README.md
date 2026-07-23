@@ -19,3 +19,7 @@ Security-Review One(Password-Store) : 0xA2626bE06C11211A44fb6cA324A67EBDBCd30B70
 Security-Review Two(Puppy-Raffle) : 0xf988Ebf9D801F4D3595592490D7fF029E438deCa
 Security-Review Three(TSwap) : 0xdeB8d8eFeF7049E280Af1d5FE3a380F3BE93B648
 Security-Review Four(ThunderLoan) : 0xcf4fbA490197452Bd414E16D563623253eFb57D3
+
+forge script script/ChallengeFourteen.s.sol:ChallengeFourteenScript --rpc-url https://mainnet.optimism.io --broadcast --legacy --etherscan-api-key $ETHS_KEY --verify --account mainOne
+
+forge script script/ChallengeFourteen.s.sol:ChallengeFourteenScript --rpc-url https://mainnet.optimism.io
